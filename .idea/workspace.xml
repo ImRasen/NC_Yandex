@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="039ccd0b-b334-4233-96fe-1a0af268e5d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/NC_Yandex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaBold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helveticaneuecyr-roman.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helveticaneuecyr-roman.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helveticaneuecyr-roman.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helveticaneuecyr-roman.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/autoru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/bell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/checkmark_disabled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/collections.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/geo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/images.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/maps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/market.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/options.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/translate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/Ya-Logo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/color.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/common.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/font-vars.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/font.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/normalize.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/reset.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/vars.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/components.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/currency-option.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/currency.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/geo.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/icon-container.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/main-page.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/more.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/news-head.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/news-item.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/news-list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/news.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/option.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/service-panel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/service.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/time-date.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/top-panel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="package.json" />
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jIFchuju3KVYF6KlKGq71on5LN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/icons" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/assets/fonts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="039ccd0b-b334-4233-96fe-1a0af268e5d0" name="Default Changelist" comment="" />
+      <created>1603483780456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603483780456</updated>
+      <workItem from="1603483781657" duration="2164000" />
+      <workItem from="1603533111031" duration="25380000" />
+      <workItem from="1603644820647" duration="11630000" />
+      <workItem from="1603661227529" duration="6511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1603486798843">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1603486798843" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1603486798842">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1603486798842" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1603486798841">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1603486798841" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1603486798842">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603486798842" />
+  </component>
+</project>

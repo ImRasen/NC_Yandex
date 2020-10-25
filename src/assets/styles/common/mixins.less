@@ -1,0 +1,21 @@
+// здесь задаем миксины, которые потом можно будет переиспользовать
+
+.hidden() {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip: rect(0 0 0 0);
+}
+
+.text-link-hover() {
+  &:hover {
+    color: @custom-dark-red;
+  }
+}
+
+.text-link() {
+  color: inherit;
+  .text-link-hover();
+}

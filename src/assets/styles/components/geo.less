@@ -1,0 +1,19 @@
+.geo {
+  display: inline-flex;
+  align-items: center;
+
+  &._link:hover {
+    color: @custom-red;
+  }
+
+  &._link:hover &__icon {
+    fill: @geo-red;
+  }
+
+  &__icon{
+    margin-right: 2px;
+    width: 16px;
+    height: 16px;
+    fill: @geo-black;
+  }
+}

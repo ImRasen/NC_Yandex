@@ -1,0 +1,22 @@
+.currency {
+
+  &__usd, &__eur, &__oil {
+    text-transform: uppercase;
+    margin-right: 6px;
+    &._text-weight-m {
+      font-weight: @font-medium-weight;
+    }
+  }
+
+  &__usd-rub, &__eur-rub, &__oil-rub {
+    margin-right: 7px;
+  }
+
+  &__usd-diff, &__eur-diff, &__oil-diff {
+    margin-right: 12px;
+    &._text-grey{
+      color: @custom-grey;
+    }
+  }
+
+}
