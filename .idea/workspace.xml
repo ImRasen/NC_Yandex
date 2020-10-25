@@ -1,69 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="039ccd0b-b334-4233-96fe-1a0af268e5d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/NC_Yandex.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaBold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaBold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helveticaneuecyr-roman.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helveticaneuecyr-roman.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helveticaneuecyr-roman.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helveticaneuecyr-roman.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/autoru.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/bell.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/checkmark_disabled.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/collections.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/geo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/images.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/maps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/market.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/music.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/news.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/options.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/translate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/tv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/video.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Ya-Logo.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/color.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/common.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/font-vars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/font.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/normalize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/reset.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/common/vars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/components.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/currency-option.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/currency.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/geo.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/icon-container.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/main-page.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/main.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/more.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/news-head.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/news-item.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/news-list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/news.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/option.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/service-panel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/service.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/time-date.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/top-panel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/main.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    <list default="true" id="039ccd0b-b334-4233-96fe-1a0af268e5d0" name="Default Changelist" comment="news, services, top-&gt;to fix">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,12 +62,24 @@
       <workItem from="1603483781657" duration="2164000" />
       <workItem from="1603533111031" duration="25380000" />
       <workItem from="1603644820647" duration="11630000" />
-      <workItem from="1603661227529" duration="6511000" />
+      <workItem from="1603661227529" duration="6945000" />
     </task>
+    <task id="LOCAL-00001" summary="news, services, top-&gt;to fix">
+      <created>1603668651551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603668651551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="news, services, top-&gt;to fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="news, services, top-&gt;to fix" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1603486798843">
@@ -146,5 +98,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603486798842" />
+    <state x="179" y="123" key="Vcs.Push.Dialog.v2" timestamp="1603668846485">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="179" y="123" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1603668846485" />
   </component>
 </project>
