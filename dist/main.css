@@ -643,3 +643,50 @@ select {
 .geo:hover .geo__icon {
   fill: #F12727;
 }
+.search {
+  display: flex;
+  align-items: center;
+  min-width: 800px;
+  max-width: 1000px;
+  line-height: 36px;
+  font-size: 123.1%;
+}
+.search__logo {
+  position: relative;
+  bottom: 5px;
+  width: 140px;
+  height: 100px;
+}
+.search-button {
+  background-color: #999999;
+  border: 0 solid #ffdb4d;
+  background-color: #ffdb4d;
+}
+.search-button__text {
+  color: #000000;
+  padding: 0 9px 0 9px;
+  border-width: 22px 0 22px 11px;
+}
+.search-button:hover .search-button__text {
+  color: #fc0d1b;
+}
+.search-line {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.search-line__input {
+  border: 2px solid #feda5a;
+  height: 36px;
+  width: 100%;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+}
+.search-line__voice {
+  position: absolute;
+  right: 100px;
+}
+.search-line__keyboard {
+  position: absolute;
+  right: 74px;
+}
