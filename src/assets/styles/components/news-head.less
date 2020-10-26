@@ -1,4 +1,6 @@
 .news-head {
+  margin-bottom: 7px;
+
   &__item {
     &:first-child {
       padding-left: 22px;
@@ -26,7 +28,7 @@
     }
   }
 
-  &__item + &__item{
+  &__item + &__item:not(:last-child){
     margin-left: 12px;
   }
 }

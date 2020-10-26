@@ -337,6 +337,7 @@ body {
   height: 100%;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
+  line-height: 1.25;
 }
 /* Reset ul, ol (with class arg)*/
 ul[class],
@@ -403,6 +404,7 @@ select {
 }
 .news-item__text._text-link {
   color: inherit;
+  cursor: pointer;
 }
 .news-item__text._text-link:hover {
   color: #ca0813;
@@ -412,15 +414,18 @@ select {
   flex-direction: column;
   align-items: center;
 }
+.service:hover {
+  cursor: pointer;
+}
+.service:hover .service__icon {
+  transform: translateY(-5px);
+}
+.service:hover .service__text {
+  color: #fc0d1b;
+}
 .service__icon {
   width: 44px;
   height: 44px;
-}
-.service__text._text-link {
-  color: inherit;
-}
-.service__text._text-link:hover {
-  color: #ca0813;
 }
 .service-panel {
   display: flex;
@@ -444,8 +449,18 @@ select {
   flex-direction: column;
   flex-wrap: wrap;
 }
+.more:hover {
+  cursor: pointer;
+}
+.more:hover .more__text {
+  color: #fc0d1b;
+}
+.more:hover .more__wrap {
+  transform: translateY(-5px);
+}
 .more__text._text-link {
   color: inherit;
+  cursor: pointer;
 }
 .more__text._text-link:hover {
   color: #ca0813;
@@ -454,11 +469,15 @@ select {
   width: 18px;
   height: 18px;
 }
+.news-head {
+  margin-bottom: 7px;
+}
 .news-head__item:first-child {
   padding-left: 22px;
 }
 .news-head__item._text-link {
   color: inherit;
+  cursor: pointer;
 }
 .news-head__item._text-link:hover {
   color: #ca0813;
@@ -481,11 +500,12 @@ select {
 .news-head__item._text-grey {
   color: #999999;
 }
-.news-head__item + .news-head__item {
+.news-head__item + .news-head__item:not(:last-child) {
   margin-left: 12px;
 }
 .time-date__time._text-link {
   color: inherit;
+  cursor: pointer;
 }
 .time-date__time._text-link:hover {
   color: #ca0813;
@@ -500,6 +520,17 @@ select {
 .currency__eur._text-weight-m,
 .currency__oil._text-weight-m {
   font-weight: 500;
+}
+.currency__usd._text-link,
+.currency__eur._text-link,
+.currency__oil._text-link {
+  color: inherit;
+  cursor: pointer;
+}
+.currency__usd._text-link:hover,
+.currency__eur._text-link:hover,
+.currency__oil._text-link:hover {
+  color: #ca0813;
 }
 .currency__usd-rub,
 .currency__eur-rub,
@@ -516,13 +547,24 @@ select {
 .currency__oil-diff._text-grey {
   color: #999999;
 }
-.option._link:hover .option__icon {
-  fill: #fc0d1b;
-}
 .option__icon {
   width: 15px;
   height: 15px;
   color: #cccccc;
+}
+.option._grey-link:hover .option__icon {
+  fill: #999999;
+  cursor: pointer;
+}
+.option._rotate90 .option__icon {
+  transform: rotate(90deg) translateX(3px);
+}
+.option._black-link .option__icon {
+  fill: #cccccc;
+}
+.option._black-link:hover .option__icon {
+  cursor: pointer;
+  fill: #000000;
 }
 .currency-option {
   display: inline-flex;
@@ -534,40 +576,70 @@ select {
   line-height: 42px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
-.top-panel__item._text-link {
+.panel-left {
+  display: flex;
+  align-items: center;
+}
+.panel-left__geo {
+  padding-left: 30px;
+}
+.panel-left__privacy {
+  padding-left: 16px;
+}
+.panel-left__privacy._text-link {
   color: inherit;
+  cursor: pointer;
 }
-.top-panel__item._text-link:hover {
+.panel-left__privacy._text-link:hover {
   color: #ca0813;
 }
-.top-panel__item._text-grey {
+.panel-left__privacy._text-grey {
   color: #999999;
 }
-.top-panel__item + .top-panel__item {
-  margin-left: 16px;
-}
-.top-panel__icon {
-  width: 15px;
-  height: 15px;
+.panel-icon__icon {
+  padding-top: 4px;
+  width: 16px;
+  height: 16px;
   fill: #cccccc;
 }
-.top-panel__item:hover .top-panel__icon {
+.panel-icon:hover .panel-icon__icon {
   fill: #999999;
+}
+.panel-right__collections {
+  align-self: center;
+  margin-right: 6px;
+}
+.panel-right__notifications {
+  align-self: center;
+  margin-right: 12px;
+}
+.panel-right__setting {
+  padding-right: 18px;
+}
+.panel-right__setting._text-link {
+  color: inherit;
+  cursor: pointer;
+}
+.panel-right__setting._text-link:hover {
+  color: #ca0813;
 }
 .geo {
   display: inline-flex;
   align-items: center;
-}
-.geo._link:hover {
-  color: #fc0d1b;
-}
-.geo._link:hover .geo__icon {
-  fill: #F12727;
+  color: inherit;
 }
 .geo__icon {
   margin-right: 2px;
   width: 16px;
   height: 16px;
   fill: #404040;
+}
+.geo:hover .geo__text {
+  color: #fc0d1b;
+}
+.geo:hover .geo__icon {
+  fill: #F12727;
 }

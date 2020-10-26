@@ -15,24 +15,28 @@
 
     <!-- Top Panel -->
     <div class="top-panel">
-        <a class="top-panel__item geo _link">
-            <svg class="geo__icon">
-                <use href="#icon-geo"></use>
-            </svg>
-            <span class="geo__text">Москва</span>
-        </a>
-        <a href="" class="top-panel__item _text-grey">Конфиденциальность</a>
-        <a href="" class="top-panel__item">
-            <svg class="top-panel__icon _collections" viewBox="0 0 36 36">
-                <use href="#icon-collections"></use>
-            </svg>
-        </a>
-        <a href="" class="top-panel__item icon-link">
-            <svg class="top-panel__icon _bell" viewBox="0 0 36 36">
-                <use href="#icon-collections"></use>
-            </svg>
-        </a>
-        <a href="" class="top-panel__item _text-link">Настройка</a>
+        <div class="top-panel__left panel-left">
+            <a class="panel-left__geo geo" href="#" >
+                <svg class="geo__icon">
+                    <use href="#icon-geo"></use>
+                </svg>
+                <span class="geo__text">Москва</span>
+            </a>
+            <a class="panel-left__privacy _text-link _text-grey" href="#">Конфиденциальность</a>
+        </div>
+        <div class="panel-right">
+            <a class="panel-right__collections panel-icon" href="#" >
+                <svg class="panel-icon__icon" viewBox="0 0 36 36">
+                    <use href="#icon-collections"></use>
+                </svg>
+            </a>
+            <a class="panel-right__notifications panel-icon" href="#" >
+                <svg class="panel-icon__icon" viewBox="0 0 36 36">
+                    <use href="#icon-collections"></use>
+                </svg>
+            </a>
+            <a href="" class="panel-right__setting _text-link">Настройка</a>
+        </div>
     </div>
 
     <!-- News Header-->
@@ -55,8 +59,13 @@
                     12:10
                 </a>
             </span>
-        <!-- News List -->
+            <a class="news-head__item option _black-link _rotate90">
+                <svg class="option__icon" viewBox="0 0 15 15">
+                    <use href="#icon-options"></use>
+                </svg>
+            </a>
         </div>
+        <!-- News List -->
         <div class="news__list news-list">
             <div class="news-list__item news-item">
                 <svg class="news-item__icon">
@@ -92,17 +101,17 @@
         <!-- News Bottom (Currency) -->
         <div class="news__bottom currency-option">
             <div class="currency-option__currency currency">
-                <span class="currency__usd _text-weight-m">usd</span><!--
+                <span class="currency__usd _text-weight-m _text-link">usd</span><!--
                 --><span class="currency__usd-rub">76,12</span><!--
                 --><span class="currency__usd-diff _text-grey">-0,46</span><!--
-                --><span class="currency__eur _text-weight-m">eur</span><!--
+                --><span class="currency__eur _text-weight-m _text-link">eur</span><!--
                 --><span class="currency__eur-rub">90,29</span><!--
                 --><span class="currency__eur-diff _text-grey">-0,24</span><!--
-                --><span class="currency__oil _text-weight-m">Нефть</span><!--
+                --><span class="currency__oil _text-weight-m _text-link">Нефть</span><!--
                 --><span class="currency__oil-rub">41,66</span><!--
                 --><span class="currency__oil-diff _text-grey">-1,91%</span>
             </div>
-            <a class="currency-option__option option _link">
+            <a class="currency-option__option option _grey-link">
                 <svg class="option__icon" viewBox="0 0 15 15">
                     <use href="#icon-options"></use>
                 </svg>
@@ -113,61 +122,61 @@
 
 
     <!-- Service panel -->
-    <div class="service-panel service">
-        <div class="service-panel__item service">
+    <div class="service-panel">
+        <a class="service-panel__item service">
             <svg class="service__icon">
                 <use href="#icon-video"></use>
             </svg>
-            <a class="service__text _text-link">Видео</a>
-        </div>
-        <div class="service-panel__item service">
+            <span class="service__text">Видео</span>
+        </a>
+        <a class="service-panel__item service">
             <svg class="service__icon">
                 <use href="#icon-images"></use>
             </svg>
-            <a class="service__text _text-link">Картинки</a>
-        </div>
-        <div class="service-panel__item service">
+            <span class="service__text">Картинки</span>
+        </a>
+        <a class="service-panel__item service">
             <svg class="service__icon">
                 <use href="#icon-news"></use>
             </svg>
-            <a class="service__text _text-link">Новости</a>
-        </div>
-        <div class="service-panel__item service">
+            <span class="service__text">Новости</span>
+        </a>
+        <a class="service-panel__item service">
             <svg class="service__icon">
                 <use href="#icon-maps"></use>
             </svg>
-            <a class="service__text _text-link">Карты</a>
-        </div>
-        <div class="service-panel__item service">
+            <span class="service__text">Карты</span>
+        </a>
+        <a class="service-panel__item service">
             <svg class="service__icon">
                 <use href="#icon-market"></use>
             </svg>
-            <a class="service__text _text-link">Маркет</a>
-        </div>
-        <div class="service-panel__item service">
+            <span class="service__text">Маркет</span>
+        </a>
+        <a class="service-panel__item service">
             <svg class="service__icon">
                 <use href="#icon-translate"></use>
             </svg>
-            <a class="service__text _text-link">Переводчик</a>
-        </div>
-        <div class="service-panel__item service">
+            <span class="service__text">Переводчик</span>
+        </a>
+        <a class="service-panel__item service">
             <svg class="service__icon">
                 <use href="#icon-music"></use>
             </svg>
-            <a class="service__text _text-link">Музыка</a>
-        </div>
-        <div class="service-panel__item service">
+            <span class="service__text">Музыка</span>
+        </a>
+        <a class="service-panel__item service">
             <svg class="service__icon">
                 <use href="#icon-tv"></use>
             </svg>
-            <a class="service__text _text-link">Программа</a>
-        </div>
-        <div class="service-panel__item service">
+            <span class="service__text">Программа</span>
+        </a>
+        <a class="service-panel__item service">
             <svg class="service__icon">
                 <use href="#icon-autoru"></use>
             </svg>
-            <a class="service__text _text-link">Авто.ру</a>
-        </div>
+            <span class="service__text">Авто.ру</span>
+        </a>
         <!-- Service More -->
         <div class="service-panel__item more">
             <div class="more__wrap icon-container">

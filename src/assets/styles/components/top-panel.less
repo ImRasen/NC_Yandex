@@ -2,36 +2,7 @@
   line-height: 42px;
   display: flex;
   align-items: center;
-
-  &__item{
-    &._text-link {
-      .text-link();
-    }
-
-    &._text-grey{
-      color: @custom-grey;
-    }
-  }
-
-  &__item + &__item {
-    margin-left: 16px;
-  }
-
-  &__icon {
-    width: 15px;
-    height: 15px;
-    fill: @option-grey;
-
-    &._collections {
-
-    }
-
-    &._bell {
-    }
-  }
-
-  &__item:hover &__icon {
-    fill: @custom-grey;
-  }
+  justify-content: space-between;
+  width: 100%;
 
 }

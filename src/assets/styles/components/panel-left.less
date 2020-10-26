@@ -1,0 +1,17 @@
+.panel-left {
+  display: flex;
+  align-items: center;
+
+  &__geo {
+    padding-left: 30px;
+  }
+  &__privacy {
+    padding-left: 16px;
+    &._text-link {
+      .text-link();
+    }
+    &._text-grey {
+       color: @custom-grey;
+     }
+  }
+}

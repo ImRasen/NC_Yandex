@@ -1,10 +1,26 @@
 .option {
-  &._link:hover &__icon {
-    fill: @custom-red;
-  }
   &__icon {
     width: 15px;
     height: 15px;
     color: @option-grey;
   }
+
+  &._grey-link:hover &__icon {
+    fill: @custom-grey;
+    cursor: pointer;
+  }
+
+  &._rotate90 &__icon{
+    transform: rotate(90deg) translateX(3px);
+  }
+
+  &._black-link &__icon{
+    fill: @option-grey;
+  }
+
+  &._black-link:hover &__icon {
+    cursor: pointer;
+    fill: @custom-black;
+  }
+
 }

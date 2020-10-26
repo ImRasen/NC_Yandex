@@ -1,14 +1,7 @@
 .geo {
   display: inline-flex;
   align-items: center;
-
-  &._link:hover {
-    color: @custom-red;
-  }
-
-  &._link:hover &__icon {
-    fill: @geo-red;
-  }
+  color: inherit;
 
   &__icon{
     margin-right: 2px;
@@ -16,4 +9,14 @@
     height: 16px;
     fill: @geo-black;
   }
+
+  &:hover &__text{
+    color: @custom-red;
+  }
+
+  &:hover &__icon {
+    fill: @geo-red;
+  }
+
+
 }
