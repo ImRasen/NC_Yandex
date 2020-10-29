@@ -1,0 +1,38 @@
+.nav {
+  display: inline-flex;
+  align-items: flex-end;
+  margin-bottom: 8px;
+
+  &__item {
+    display: inline-flex;
+    align-items: center;
+
+    &._centered {
+      align-self: center;
+    }
+
+    &._color-blue {
+      color: @custom-blue;
+    }
+
+    &._color-light-blue {
+      color: @custom-light-blue;
+    }
+
+    &._color-orange {
+      color: @custom-orange;
+    }
+
+    &._color-grey {
+      color: @custom-grey;
+    }
+
+    &._font-medium {
+      .font-medium();
+    }
+  }
+
+  &__item + &__item {
+    margin-left: 8px;
+  }
+}

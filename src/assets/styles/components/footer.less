@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  align-items: center;
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+
+    &-link {
+      text-transform: uppercase;
+
+    }
+
+    &-text {
+      padding-left: 6px;
+
+      &._color-grey {
+        color: @custom-grey;
+      }
+    }
+  }
+}

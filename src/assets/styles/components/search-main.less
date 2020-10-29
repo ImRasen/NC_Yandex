@@ -1,0 +1,22 @@
+.search-main {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 100%;
+  & .search-main__line {
+    display: flex;
+    padding: 0 0 0 5px;
+    &-input {
+      flex: 1;
+      border: 2px solid @custom-yellow;
+      height: 36px;
+      padding: 2px 23px 2px 30px;
+    }
+    &-button {
+      flex: 0 0;
+    }
+  }
+  & .search-main__hints {
+    margin: 8px 0 0 0;
+  }
+}

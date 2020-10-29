@@ -1,0 +1,104 @@
+.link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  //border: solid 1px blue;
+
+  .link__icon {
+
+    &._color-grey {
+      fill: @option-grey;
+    }
+
+    &._size-xs {
+      width: @icon-size-xs;
+      height: @icon-size-xs;
+    }
+
+    &._size-s {
+      width: @icon-size-s;
+      height: @icon-size-s;
+    }
+
+    &._size-m {
+      width: @icon-size-m;
+      height: @icon-size-m;
+    }
+
+    &._size-l {
+      width: @icon-size-l;
+      height: @icon-size-l;
+    }
+
+    &._size-xl {
+      width: @icon-size-xl;
+      height: @icon-size-xl;
+    }
+
+    &._yandex-logo {
+      width: 140px;
+      height: 100px;
+    }
+
+    &._keyboard {
+      width: 27px;
+      height: 36px;
+    }
+
+    &._traffic {
+      width: 34px;
+      height: 31px;
+    }
+
+  }
+
+  .link__text {
+    //color: black;
+    //border: solid 1px green;
+
+    &._grey {
+      color: @custom-grey;
+    }
+
+    &._space-between-s {
+      padding-left: @icon-text-space-between-s;
+    }
+
+    &._space-between-m {
+      padding-left: @icon-text-space-between-m;
+    }
+
+    &._weight-medium {
+      font-weight: @font-medium-weight;
+    }
+
+    &._size-l {
+      font-size: @font-large-size;
+    }
+  }
+
+  &._reversed {
+    flex-direction: row;
+  }
+
+  &:hover {
+    .link__icon._animation {
+      transition: transform 0.1s ease-in 25ms;
+      transform: translateY(-5px);
+    }
+
+    .link__icon._hover-color-grey {
+      fill: @custom-grey;
+    }
+
+    .link__icon._hover-color-red {
+      fill: @custom-dark-red;
+    }
+
+    .link__text {
+      color: @custom-dark-red;
+    }
+  }
+}
