@@ -54,6 +54,14 @@ gulp.task("html", function () {
     return gulp.src("./src/index.html").pipe(gulp.dest("./dist"));
 });
 
+gulp.task("fonts", function () {
+    return gulp.src(["./src/assets/fonts/*.woff2",
+        "./src/assets/fonts/*.woff",
+        "./src/assets/fonts/*.svg",
+        "./src/assets/fonts/*.eot",
+        "./src/assets/fonts/*.ttf"]).pipe(gulp.dest("./dist"));
+});
+
 gulp.task("serve", function () {
     browserSync.init({
         server: {
@@ -68,6 +76,6 @@ gulp.task("serve", function () {
     gulp.watch("./dist/index.html").on("change", browserSync.reload);
 });
 
-gulp.task("build", series("svgstore", "less", "html"));
+gulp.task("build", series("svgstore", "fonts", "less", "html"));
 
-gulp.task("default", series("svgstore", parallel("html", "less"), "serve"));
+gulp.task("default", series("svgstore", "fonts", parallel("html", "less"), "serve"));
