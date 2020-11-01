@@ -57,10 +57,13 @@ gulp.task("html", function () {
 gulp.task("fonts", function () {
     return gulp.src(["./src/assets/fonts/*.woff2",
         "./src/assets/fonts/*.woff",
-        "./src/assets/fonts/*.svg",
-        "./src/assets/fonts/*.eot",
         "./src/assets/fonts/*.ttf"]).pipe(gulp.dest("./dist"));
 });
+
+gulp.task("img", function() {
+    return gulp.src(["./src/assets/img/*.jpg",
+        "./src/assets/img/*.jpeg"]).pipe(gulp.dest("./dist"));
+})
 
 gulp.task("serve", function () {
     browserSync.init({
@@ -76,6 +79,6 @@ gulp.task("serve", function () {
     gulp.watch("./dist/index.html").on("change", browserSync.reload);
 });
 
-gulp.task("build", series("svgstore", "fonts", "less", "html"));
+gulp.task("build", series("svgstore", "img", "fonts", "less", "html"));
 
-gulp.task("default", series("svgstore", "fonts", parallel("html", "less"), "serve"));
+gulp.task("default", series("svgstore", "img", "fonts", parallel("html", "less"), "serve"));

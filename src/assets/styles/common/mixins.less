@@ -9,8 +9,19 @@
   clip: rect(0 0 0 0);
 }
 
-//.set-fonts() {
-//  font-family: @font-family;
-//  font-size: @font-normal-size;
-//  color: @custom-black;
-//}
+.font-face(@font-family, @font-addr, @font-weight, @font-style) {
+  @font-face {
+    font-family: @font-family;
+    src: url("@{font-addr}.woff") format("woff"),
+    url("@{font-addr}.ttf") format("truetype");
+    font-weight: @font-weight;
+    font-style: @font-style;
+  }
+}
+
+.font(@font-family, @font-weight, @font-size, @font-style) {
+  font-family: @font-family;
+  font-weight: @font-weight;
+  font-size: @font-size;
+  font-style: @font-style;
+}

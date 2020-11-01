@@ -1,72 +1,10 @@
 // connect fonts via font-face
 // Arial: no need in connection
 
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('helveticaneuecyr-roman.eot');
-  src: local('Helvetica Neue'),
-  url('helveticaneuecyr-roman.woff') format('woff'),
-  url('helveticaneuecyr-roman.ttf') format('truetype'),
-  url('helveticaneuecyr-roman.svg') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
+.font-face(YSans, "YandexSansText-Light", 300, normal);
+.font-face(YSans, "YandexSansText-Regular", 400, normal);
+.font-face(YSans, "YandexSansText-Medium", 500, normal);
 
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('HelveticaBold.eot');
-  src: local('"Helvetica Neue Bold'), url('HelveticaBold.woff') format('woff'),
-  url('HelveticaBold.ttf') format('truetype'),
-  url('HelveticaBold.svg') format('svg');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Yandex Sans Text';
-  src: url('YandexSansText-Regular.eot');
-  src: local('Yandex Sans Text Regular'), local('YandexSansText-Regular'),
-  url('YandexSansText-Regular.eot?#iefix') format('embedded-opentype'),
-  url('YandexSansText-Regular.woff2') format('woff2'),
-  url('YandexSansText-Regular.woff') format('woff'),
-  url('YandexSansText-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Yandex Sans Text';
-  src: url('YandexSansText-Light.eot');
-  src: local('Yandex Sans Text Light'), local('YandexSansText-Light'),
-  url('YandexSansText-Light.eot?#iefix') format('embedded-opentype'),
-  url('YandexSansText-Light.woff2') format('woff2'),
-  url('YandexSansText-Light.woff') format('woff'),
-  url('YandexSansText-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Yandex Sans Text';
-  src: url('YandexSansText-Bold.eot');
-  src: local('Yandex Sans Text Bold'), local('YandexSansText-Bold'),
-  url('YandexSansText-Bold.eot?#iefix') format('embedded-opentype'),
-  url('YandexSansText-Bold.woff2') format('woff2'),
-  url('YandexSansText-Bold.woff') format('woff'),
-  url('YandexSansText-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Yandex Sans Text';
-  src: url('YandexSansText-Medium.eot');
-  src: local('Yandex Sans Text Medium'), local('YandexSansText-Medium'),
-  url('YandexSansText-Medium.eot?#iefix') format('embedded-opentype'),
-  url('YandexSansText-Medium.woff2') format('woff2'),
-  url('YandexSansText-Medium.woff') format('woff'),
-  url('YandexSansText-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
+.font-face(Helvetica, "helveticaneuecyr-roman", 400, normal);
+.font-face(Helvetica, "HelveticaBold", 500, normal);
 

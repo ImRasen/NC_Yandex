@@ -1,26 +1,37 @@
 // задаем основные параметры шрифта в виде миксинов и переменных
-
-@font-family: 'Yandex Sans Text', 'Helvetica Neue', sans-serif;
-@font-normal-size: 13px;
-@font-normal-weight: 400;
+@font-family: YSans, serif;
+@font-regular-size: 13px;
+@font-regular-weight: 400;
 @font-medium-size: 16px;
 @font-medium-weight: 500;
 @font-large-size: 28px;
 
-.font-base() {
-  font-family: @font-family;
-  font-weight: @font-normal-weight;
-  font-style: normal;
-  font-size: @font-normal-size;
+// font-weight-size
+.font-regular() {
+  .font(@font-family, @font-regular-weight, @font-regular-size, normal);
 }
 
-.font-medium() {
-  .font-base();
-  font-weight: @font-medium-weight;
+.font-regular-medium() {
+  .font-regular();
   font-size: @font-medium-size;
 }
 
-.font-large() {
-  .font-base();
+.font-regular-large() {
+  .font-regular();
   font-size: @font-large-size;
 }
+
+.font-medium() {
+  .font(@font-family, @font-medium-weight, @font-medium-size, normal);
+}
+
+.font-medium-regular() {
+  .font-medium();
+  font-size: @font-regular-size;
+}
+
+.font-medium-large() {
+  .font-medium();
+  font-size: @font-large-size;
+}
+
