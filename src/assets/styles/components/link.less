@@ -47,6 +47,11 @@
       height: 31px;
     }
 
+    &._voice {
+      width: 20px;
+      height: 18px;
+    }
+
   }
 
   &__text {
@@ -56,11 +61,11 @@
     }
 
     // font-weight-size
-    &._font-regular-medium{
+    &._font-regular-medium {
       .font-regular-medium();
     }
 
-    &._font-regular-large{
+    &._font-regular-large {
       .font-regular-large();
     }
 
@@ -93,6 +98,7 @@
     .link__text {
       color: @custom-grey;
     }
+
     .link__icon {
       fill: @option-grey;
     }
@@ -144,6 +150,11 @@
 
   &:focus {
     outline: 2px solid @custom-yellow;
+
+    .link__icon._animation {
+      transition: transform 0.1s ease-in 25ms;
+      transform: translateY(-5px);
+    }
   }
 
 }
