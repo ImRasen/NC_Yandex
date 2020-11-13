@@ -8,6 +8,7 @@ const gulp = require("gulp"),
     autoprefixer = require("gulp-autoprefixer"),
     browserSync = require("browser-sync").create(),
     rename = require("gulp-rename");
+    concat = require("gulp-concat");
 
 gulp.task("svgstore", function () {
     const svgs = gulp
@@ -60,6 +61,12 @@ gulp.task("fonts", function () {
         "./src/assets/fonts/*.ttf"]).pipe(gulp.dest("./dist"));
 });
 
+gulp.task("js", function () {
+    return gulp.src(["./src/assets/scripts/*.js"])
+        .pipe(concat('script.js'))
+        .pipe(gulp.dest("./dist"));
+})
+
 gulp.task("img", function() {
     return gulp.src(["./src/assets/img/*.jpg",
         "./src/assets/img/*.jpeg"]).pipe(gulp.dest("./dist"));
@@ -74,11 +81,13 @@ gulp.task("serve", function () {
 
     gulp.watch("./src/assets/styles/**/*.less").on("change", series("less"));
     gulp.watch("./src/index.html").on("change", series("html"));
+    gulp.watch("./src/assets/scripts/*.js").on("change", series("js"));
 
     gulp.watch("./dist/style.css").on("change", browserSync.reload);
     gulp.watch("./dist/index.html").on("change", browserSync.reload);
+    gulp.watch("./dist/script.js").on("change", browserSync.reload);
 });
 
-gulp.task("build", series("svgstore", "img", "fonts", "less", "html"));
+gulp.task("build", series("svgstore", "img", "js", "fonts", "less", "html"));
 
-gulp.task("default", series("svgstore", "img", "fonts", parallel("html", "less"), "serve"));
+gulp.task("default", series("svgstore", "img", "fonts", parallel("html", "less", "js"), "serve"));
